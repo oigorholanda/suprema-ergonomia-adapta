@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { GraduationCap, Award, Users, Heart, ArrowRight } from "lucide-react";
+import professorSergio from "@/assets/professor-sergio.jpg";
 
 const About = () => {
   return (
@@ -57,10 +58,11 @@ const About = () => {
               <CardContent className="p-8 space-y-6">
                 <div className="text-center">
                   <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Users className="w-10 h-10 text-white" />
+                    <img src={professorSergio} alt="Professor Sergio Cardozo"
+                    className="rounded-full" />
                   </div>
                   <h4 className="text-xl font-semibold text-foreground mb-2">
-                    Nossa Missão
+                    Minha Missão
                   </h4>
                 </div>
 

@@ -1,6 +1,8 @@
 import { Heart } from "lucide-react";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4">
@@ -16,7 +18,7 @@ const Footer = () => {
           <div className="border-t border-background/20 pt-6">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="text-sm text-background/60">
-                © 2024 Suprema Adapta Ergonomia & Saúde. Todos os direitos reservados.
+                © {currentYear} Suprema Adapta Ergonomia & Saúde. Todos os direitos reservados.
               </div>
               
               <div className="flex items-center space-x-2 text-sm text-background/80">

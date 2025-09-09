@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Users, Award } from "lucide-react";
-import heroImage from "@/assets/ergonomics-hero.jpg";
+import heroImage from "../assets/ergonomics-hero.jpg";
 
 const Hero = () => {
   return (
@@ -68,7 +68,7 @@ const Hero = () => {
               alt="Ambiente de trabalho ergonômico" 
               className="rounded-lg shadow-medium w-full h-auto"
             />
-            <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-secondary/10 rounded-lg"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-transparent to-primary/10 rounded-lg pointer-events-none"></div>
           </div>
         </div>
       </div>
