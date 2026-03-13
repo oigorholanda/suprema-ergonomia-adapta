@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="text-center space-y-6">
           <div>
             <h3 className="text-2xl font-bold mb-2 font-display bg-gradient-purple-gold bg-clip-text text-transparent">
-              SupremAdapta
+              Supremadapta
             </h3>
             <p className="text-sm text-muted-foreground">Soluções Ergonômicas</p>
             <p className="text-muted-foreground max-w-2xl mx-auto mt-3 text-sm">
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="border-t border-border pt-6">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="text-sm text-muted-foreground">
-                © {currentYear} SupremAdapta Soluções Ergonômicas. Todos os direitos reservados.
+                © {currentYear} Supremadapta Soluções Ergonômicas. Todos os direitos reservados.
               </div>
               
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">

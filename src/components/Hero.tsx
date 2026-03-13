@@ -1,15 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Users, Award } from "lucide-react";
-import heroImage from "../assets/ergonomics-hero.jpg";
+import heroImage from "../assets/ergonomics-hero-3.png";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-hero min-h-[85vh] flex items-center overflow-hidden">
+    <section className="relative bg-gradient-hero min-h-[75vh] flex items-center overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-secondary/5 rounded-full blur-3xl" />
 
-      <div className="container mx-auto px-4 py-16 relative z-10">
+      <div className="container mx-auto px-4 py-10 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
